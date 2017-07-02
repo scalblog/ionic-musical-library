@@ -17,7 +17,7 @@ export class PlaylistPage {
     'american-football', 'boat', 'bluetooth', 'build'];
 
     this.items = [];
-    for(let i = 0; i < 6; i++) {
+    for(let i = 1; i < 11; i++) {
       this.items.push({
         title: 'Item ' + i,
         note: 'This is item #' + i,
